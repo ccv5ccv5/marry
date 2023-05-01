@@ -1,3 +1,6 @@
+import sys
+sys.path.append('./lunar-python')
+
 from lunar_python import Lunar, Solar
 from lunar_python.util import HolidayUtil
 from datetime import datetime
